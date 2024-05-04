@@ -5,7 +5,7 @@ import '_/view.dart';
 
 void NewDialog(BuildContext context,
     {required String title,
-    required String bodyText,
+    required String message,
     String? okText,
     required VoidCallback tapOkButton}) async {
   showDialog(
@@ -22,7 +22,7 @@ void NewDialog(BuildContext context,
           ),
           child: NewView(
             title: title,
-            body: bodyText,
+            message: message,
             okText: okText ?? 'OK',
             tapOkButton: tapOkButton,
           ),

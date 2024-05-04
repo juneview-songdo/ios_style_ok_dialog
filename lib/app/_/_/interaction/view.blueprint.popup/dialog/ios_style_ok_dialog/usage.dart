@@ -7,7 +7,7 @@ import '../../../../../../../../../../main.dart';
 import 'dialog.dart';
 
 var openWidget = (BuildContext context) async {
-  NewDialog(context, title: "Title", bodyText: "This is message.",
+  NewDialog(context, title: "Title", message: "This is message.",
       tapOkButton: () {
     Navigator.of(context).pop();
   });

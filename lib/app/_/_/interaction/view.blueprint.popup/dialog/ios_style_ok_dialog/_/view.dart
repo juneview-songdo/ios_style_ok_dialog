@@ -9,13 +9,13 @@ class NewView extends StatefulWidget {
   NewView({
     super.key,
     required this.title,
-    required this.body,
+    required this.message,
     this.okText = 'OK',
     required this.tapOkButton,
   });
 
   final String title;
-  final String body;
+  final String message;
   final String okText;
   final VoidCallback tapOkButton;
 
@@ -65,7 +65,7 @@ main() async {
   return buildApp(
       appHome: NewView(
     title: 'Title',
-    body: 'This is message.',
+    message: 'This is message.',
     tapOkButton: () {
       print('OK');
     },
