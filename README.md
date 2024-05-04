@@ -13,9 +13,9 @@
     ```
 3. start the project by entering the following command.
     ```bash
-    flutter run [execute file path here] -d chrome
+    flutter run lib/app/_/_/interaction/view.blueprint.popup/dialog/ios_style_ok_dialog/_/view.dart -d chrome
     ```
 
 ## Screenshots
-![]()
+![](https://github.com/juneview-songdo/ios_style_ok_dialog/assets/21379657/68b1d1c7-28d2-4a0d-9db7-8fb570cbefc2)
 
